@@ -19,9 +19,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.jboss.eap</groupId>
+                <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-ejb-client-bom</artifactId>
-                <version>7.1.0.GA-redhat-11</version> <!-- this is EAP 7.1.0.CR4, TODO update after GA -->
+                <version>23.0.0.Beta1</version> <!-- this is EAP 7.1.0.CR4, TODO update after GA -->
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -52,7 +52,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
+                <version>3.0.0</version>
                 <executions>
                     <execution>
                         <goals>
